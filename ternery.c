@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, min;
+    int a, b, min;
 
     
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%d", &a);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &b);
 
     
-    min = (num1 < num2) ? num1 : num2;
+    min = (a < b) ? a : b;
 
     
     printf("The minimum number is: %d\n", min);
