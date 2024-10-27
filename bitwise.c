@@ -1,35 +1,35 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int a, b;
 
     // Input two numbers from the user
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%d", &a);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &b);
 
     // Bitwise AND
-    printf("Bitwise AND (num1 & num2): %d\n", num1 & num2);
+    printf("Bitwise AND (a & b): %d\n", a & b);
 
     // Bitwise OR
-    printf("Bitwise OR (num1 | num2): %d\n", num1 | num2);
+    printf("Bitwise OR (a | b): %d\n", a | b);
 
     // Bitwise XOR
-    printf("Bitwise XOR (num1 ^ num2): %d\n", num1 ^ num2);
+    printf("Bitwise XOR (a ^ b): %d\n", a ^ b);
 
     // Bitwise NOT
-    printf("Bitwise NOT (~num1): %d\n", ~num1);
-    printf("Bitwise NOT (~num2): %d\n", ~num2);
+    printf("Bitwise NOT (~a): %d\n", ~a);
+    printf("Bitwise NOT (~b): %d\n", ~b);
 
     // Left Shift
-    printf("Left Shift (num1 << 1): %d\n", num1 << 1);
-    printf("Left Shift (num2 << 1): %d\n", num2 << 1);
+    printf("Left Shift (a << 1): %d\n", a << 1);
+    printf("Left Shift (b << 1): %d\n", b << 1);
 
     // Right Shift
-    printf("Right Shift (num1 >> 1): %d\n", num1 >> 1);
-    printf("Right Shift (num2 >> 1): %d\n", num2 >> 1);
+    printf("Right Shift (a >> 1): %d\n", a >> 1);
+    printf("Right Shift (b >> 1): %d\n", b >> 1);
 
     return 0;
 }
