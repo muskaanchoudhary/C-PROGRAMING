@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int number;
+    int a;
 
     
     printf("Enter an integer: ");
-    scanf("%d", &number);
+    scanf("%d", &a);
 
     
-    const char* result = (number % 2 == 0) ? "Even" : "Odd";
+    const char* result = (a % 2 == 0) ? "Even" : "Odd";
 
    
     printf("The number is: %s\n", result);
