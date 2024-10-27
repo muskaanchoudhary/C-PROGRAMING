@@ -1,31 +1,31 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int a, b;
 
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%d", &a);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &b);
 
-    if (num1 == num2) {
+    if (a == b) {
         printf("Both numbers are equal.\n");
     }
-    if (num1 != num2) {
+    if (a != b) {
         printf("The numbers are not equal.\n");
     }
-    if (num1 > num2) {
-        printf("%d is greater than %d.\n", num1, num2);
+    if (a > b) {
+        printf("%d is greater than %d.\n", a, b);
     }
-    if (num1 < num2) {
-        printf("%d is less than %d.\n", num1, num2);
+    if (a < b) {
+        printf("%d is less than %d.\n", a, b);
     }
-    if (num1 >= num2) {
-        printf("%d is greater than or equal to %d.\n", num1, num2);
+    if (a >= b) {
+        printf("%d is greater than or equal to %d.\n", a, b);
     }
-    if (num1 <= num2) {
-        printf("%d is less than or equal to %d.\n", num1, num2);
+    if (a <= b) {
+        printf("%d is less than or equal to %d.\n", a, b);
     }
 
     return 0;
